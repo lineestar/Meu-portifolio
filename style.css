@@ -1,0 +1,56 @@
+
+#caixa1{
+    background-color: #650000;
+}
+body{
+    background-color: #650000;
+}
+.table1{
+    text-align: right;
+    display: inline-table
+
+}
+.sobre{
+    width: 500px;
+    margin-left: 20%;
+display: inline-block;
+
+}
+#p1{
+    display: inline-block;
+    margin-right: 100px;
+}
+#p2{
+    display: inline-block;
+    margin-right: 100px;
+}
+#p3{
+    display: inline-block;
+    margin-right: 100px;
+}
+#p4{
+    display: inline-block;
+    margin-right: 100px;
+}
+
+
+
+
+
+#p5{
+    display: inline-block;
+    margin-right: 100px;
+}
+#p6{
+    display: inline-block;
+    margin-right: 100px;
+}
+
+#p7{
+    display: inline-block;
+    margin-right: 100px;
+}
+#p8{
+    display: inline-block;
+    margin-right: 100px;
+}
