@@ -10,66 +10,88 @@
 
 <body>
     <header>
-        <nav class="caixa1">
-            <table width="100%">
-                <th>Aline Estrella</th>
-                <th>Sobre</th>
-                <th>Habilidades</th>
-                <th>Projeotos</th>
-                <th>Certificados</th>
-                <th>Contatos</th>
-
-            </table>
+        <nav class="cabeçalho">
+            <a class="ancoras">Aline Estrella</a>
+            <a class="ancoras">Sobre</a>
+            <a class="ancoras">Habilidades</a>
+            <a class="ancoras">Projeotos</a>
+            <a class="ancoras">Certificados</a>
+            <a class="ancoras">Contatos</a>
         </nav>
     </header>
 
     </thead>
-    <p>Sobre</p>
-    <img src="imagens/WhatsApp Image 2025-09-29 at 13.42.32.jpeg" alt="imagem minha" width="400">
-    <p class="sobre">Olá, me chamo Aline e tenho 18 anos, sou
-        estudante de Desenvolvimento Web no
-        Instituto da Oportunidade Social e estou
-        cursando o ultimo ano do ensino médio e
-        sou fluente em Espanhol
-    </p>
-
-    </table>
-    <h3>Habilidades</h3>
-    <table width="100">
-    <th><img src="imagens/html5_23329 (1).png" alt="html" width="150"></th>
-    <th><img src="imagens/CSS3_logo.svg (1).png" alt="css" width="130"></th>
-    <th><img src="imagens/java (1).webp" alt="js" width="150"></th>
-    <th><img src="imagens/git (1).png" alt="git" width="150"></th>
-    </table>
-        <table width="100%">
-    </th>
-    </table>
-    <p class="p5">HTML</p>
-    <p class="p6">CSS</p>
-    <p class="p7">Java Script</p>
-    <p class="p8">Git</p>
-    <h3>Habilidades</h3>
-
-    <img src="imagens/pacoteoffice.png" alt="office" width="150">
-    <img src="imagens/CSS3_logo.svg (1).png" alt="engrnagem" width="130">
-    <img src="imagens/software.jpg" alt="software" width="180">
-    <img src="imagens/redes.png" alt="redes" width="150">
     <article>
-        <p id="p1">Pacote Office</p>
-        <p id="p2">Hardware</p>
-        <p id="p3">Software</p>
-        <p id="p4">Redes</p>
+        <nav class="sobre">
+            <p class="imsobre"><img src="imagens/WhatsApp Image 2025-09-29 at 13.42.32.jpeg" alt="imagem minha" width="400"></p>
 
-        <h3>Proojetos</h3>
+            <p class="sobre" id="sobremim"> Sobre <br>Olá, me chamo Aline e tenho 18 anos, sou
+                estudante de Desenvolvimento Web no
+                Instituto da Oportunidade Social e estou
+                cursando o ultimo ano do ensino médio, sou
+                fluente em Espanhol.
+            </p>
+        </nav>
     </article>
-    <img src="imagens/panini (1).jpg" alt="panini" width="150">
-    <img src="imagens/WhatsApp Image 2025-09-29 at 14.21.26.jpeg" alt="vertex" width="150">
-    <h3>Certificados</h3>
-    <img src="imagens/certificadop.png" alt="certificado" width="150">
-    <h3>Contatos</h3>
-    <img src="imagens/link (2).png" alt="link" width="150">
-    <img src="imagens/git (1).png" alt="git" width="120">
-    <img src="imagens/gmail (1).png" alt="gmail" width="150">
+
+    <section>
+        <div id="titulocentral">
+            <h3 id="titulos">Habilidades</h3>
+        </div>
+        <article>
+            <nav class="habilidade">
+                <a class="habilidades"><img src="imagens/html5_23329 (1).png" alt="html" width="150"></a>
+                <a class="habilidades"><img src="imagens/CSS3_logo.svg (1).png" alt="css" width="130"></a>
+                <a class="habilidades"><img src="imagens/java (1).webp" alt="js" width="150"></a>
+                <a class="habilidades"><img src="imagens/git (1).png" alt="git" width="150"></a>
+            </nav>
+            <nav class="quaisH">
+                <a class="h1">HTML</a>
+                <a class="h1">CSS</a>
+                <a class="h1">Java Script</a>
+                <a class="h1">Git</a>
+            </nav>
+        </article>
+    </section>
+    <section>
+        <article>
+            <nav class="imagenspacote">
+                <a class="imagensHA" id="impacote"><img src="imagens/pacoteoffice.png" alt="office" width="150"></a>
+                <a class="imagensHA" id="imhaerdware"></a><img src="imagens/engrenagem (1).webp" alt="engrnagem" width="130"></a>
+                <a class="imagensHA" id="imsoftware"></a><img src="imagens/software.jpg" alt="software" width="180"></a>
+                <a class="imagensHA" id="imredes"></a><img src="imagens/redes.png" alt="redes" width="150"></a>
+            </nav>
+            <nav class="quaisH">
+                <a class="h1">Pacote Office</a>
+                <a class="h1">Hardware</a>
+                <a class="h1">Software</a>
+                <a class="h1">Redes</a>
+        </article>
+        </nav>
+
+    </section>
+
+    <article>
+        <h3 id="titulos">Projetos</h3>
+
+        <p class="imagemprojetos" id="panini"><img src="imagens/panini (1).jpg" alt="panini" width="150"></p>
+        <p class="imagemprojetos" id="vertex"><img src="imagens/WhatsApp Image 2025-09-29 at 14.21.26.jpeg" alt="vertex"
+                width="150"></p>
+    </article>
+
+    <article>
+        <h3 id="titulos">Certificado</h3>
+        <a id="imagemcetificado"><img src="imagens/certificadop.png" alt="certificado" width="400"></a>
+    </article>
+
+    <article id="ultima">
+        <nav class="habilidade">
+            <h3 id="titulocontato">Contatos</h3>
+            <p class="imcontatos" id="link"><img src="imagens/link (2).png" alt="link" width="150"></p>
+            <p class="imcontatos" id="git"><img src="imagens/git (1).png" alt="git" width="120"></p>
+            <p class="imcontatos" id="gmail"><img src="imagens/gmail (1).png" alt="gmail" width="150"></p>
+        </nav>
+    </article>
 
 
 </body>

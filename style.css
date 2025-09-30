@@ -1,56 +1,151 @@
+* {
+    margin: 0%;
+}
 
-#caixa1{
+body {
+    background-color: #490000;
+}
+
+.cabeçalho {
+    color: aliceblue;
+    display: inline-block;
+    text-align: center;
     background-color: #650000;
+    height: 40px;
+    width: 100%;
+    font-size: 30px;
 }
-body{
+
+#eu {
+    padding-right: 50px;
+}
+
+.ancoras {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.sobre {
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.habilidade {
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    font-size: 30px;
+    bottom: 20px;
+}
+
+.habilidades {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.quaisH {
+
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    font-size: 30px;
+
+}
+
+.h1 {
+    padding-left: 80p;
+    color: aliceblue;
+    padding-left: 80px;
+    padding-right: 50px;
+    text-align: center;
+    border-radius: 10px;
     background-color: #650000;
-}
-.table1{
-    text-align: right;
-    display: inline-table
 
 }
-.sobre{
-    width: 500px;
-    margin-left: 20%;
-display: inline-block;
 
-}
-#p1{
-    display: inline-block;
-    margin-right: 100px;
-}
-#p2{
-    display: inline-block;
-    margin-right: 100px;
-}
-#p3{
-    display: inline-block;
-    margin-right: 100px;
-}
-#p4{
-    display: inline-block;
-    margin-right: 100px;
+#ancoraH {
+    text-align: center;
 }
 
-
-
-
-
-#p5{
-    display: inline-block;
-    margin-right: 100px;
-}
-#p6{
-    display: inline-block;
-    margin-right: 100px;
+#titulocentral {
+    text-align: center;
+    width: 100%;
 }
 
-#p7{
-    display: inline-block;
-    margin-right: 100px;
+#titulos {
+    background-color: #650000;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: aliceblue;
 }
-#p8{
+#imagenspacote{
     display: inline-block;
-    margin-right: 100px;
+}
+#imagensHA{
+    display: inline-block;
+    text-align: center;
+}
+#imagemcetificado{
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    font-size: 30px;
+}
+.imagemprojetos{
+    display: inline-block;
+    text-align: center;
+}
+#panini{
+    padding-left: 420px;
+}
+#vertex{
+    padding-left: 200px;
+}
+#impacote{
+    padding-left: 245px;
+}
+#imhaerdware{
+    padding-left: 140px;
+}
+#imsoftware{
+    padding-left: 90px;
+}
+#imredes{
+    padding-left: 50px;
+}
+.imcontatos{
+    display: inline-block;
+    text-align: center;
+}
+#link{
+    padding-left: 80px;
+}
+#git{
+    padding-left: 100px;
+}
+#gmail{
+    padding-left: 80px;
+}
+.imsobre{
+
+}
+#ultima{
+    background-color: #a58570;
+    color: #490000;
+}
+#titulocontato{
+    background-color: #a58570;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
