@@ -14,8 +14,8 @@ body {
     height: 40px;
     width: 100%;
     font-size: 30px;
-}
-
+   
+} /*colocando tudo em uma linha onde seria so o que mostraria no portifolio*/
 #eu {
     padding-right: 50px;
 }
@@ -23,13 +23,25 @@ body {
 .ancoras {
     padding-left: 40px;
     padding-right: 40px;
+   
 }
 
 .sobre {
-
-    padding-left: 40px;
-    padding-right: 40px;
-}
+    background-color: #650000;
+    border-radius: 5px;
+    width: 700px;
+    color: aliceblue;
+}/*dentro de uma tabela deixando todos alinhados*/
+#sobremim{
+    padding-left: 50px;
+    padding-right: 50px;
+}/*teve necessidade para ser chamado separadamente pois nao estava alinhado*/
+.imsobre{
+    padding-left: 100px;
+    padding-top: 100px;
+    border: black;
+    border-radius: 100px;
+} /*colocando a imagem desencostado da margem*/
 
 .habilidade {
     display: inline-block;
@@ -38,12 +50,12 @@ body {
     width: 100%;
     font-size: 30px;
     bottom: 20px;
-}
+}/*colocando as imagens no cenntro e enfileiraas na lateral*/
 
 .habilidades {
     padding-left: 40px;
     padding-right: 40px;
-}
+} /*colocando as imagens no cenntro e enfileiraas na lateral*/
 
 .quaisH {
 
@@ -53,7 +65,7 @@ body {
     width: 100%;
     font-size: 30px;
 
-}
+}/*deixando as palavras em baixo da imagem*/
 
 .h1 {
     padding-left: 80p;
@@ -64,6 +76,9 @@ body {
     border-radius: 10px;
     background-color: #650000;
 
+}/*deixando as palavras em baixo da imagem*/
+#caixadeH1{
+    bottom: 
 }
 
 #ancoraH {
@@ -73,7 +88,7 @@ body {
 #titulocentral {
     text-align: center;
     width: 100%;
-}
+} /*deixando no centro alinhado*/
 
 #titulos {
     background-color: #650000;
@@ -83,7 +98,7 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     color: aliceblue;
-}
+}/*alinhamento no centro*/
 #imagenspacote{
     display: inline-block;
 }
@@ -91,61 +106,68 @@ body {
     display: inline-block;
     text-align: center;
 }
+#certificadoimg{
+    margin-bottom: 50px;
+}
 #imagemcetificado{
     display: inline-block;
     text-align: center;
     height: 40px;
     width: 100%;
     font-size: 30px;
+  
 }
+
 .imagemprojetos{
     display: inline-block;
     text-align: center;
 }
 #panini{
     padding-left: 420px;
-}
+}/*alinhamento diferente para esquerds*/
 #vertex{
     padding-left: 200px;
-}
+}/*alinhamento diferente para esquerds*/
 #impacote{
     padding-left: 245px;
-}
+}/*alinhamento diferente para esquerds*/
 #imhaerdware{
     padding-left: 140px;
 }
 #imsoftware{
     padding-left: 90px;
-}
+}/*alinhamento diferente para esquerds*/
 #imredes{
     padding-left: 50px;
-}
+}/*alinhamento diferente para esquerds*/
 .imcontatos{
     display: inline-block;
     text-align: center;
 }
 #link{
     padding-left: 80px;
-}
+}/*alinhamento diferente para esquerds*/
 #git{
     padding-left: 100px;
-}
+}/*alinhamento diferente para esquerds*/
 #gmail{
     padding-left: 80px;
-}
-.imsobre{
-
-}
+}/*alinhamento diferente para esquerds*/
 #ultima{
     background-color: #a58570;
     color: #490000;
+   padding-bottom: 100px;
 }
 #titulocontato{
     background-color: #a58570;
     text-align: center;
     font-size: 30px;
     border-radius: 20px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 50px;
 
+}
+#rodape{
+    text-align: center;
+    background-color: beige;
 }
